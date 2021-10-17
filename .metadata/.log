@@ -248,3 +248,195 @@ org.eclipse.swt.SWTException: Invalid thread access
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 11:30:52.360
 !MESSAGE executing callback sts4.classpath.bIbSqoju SUCCESS [done]
+
+!ENTRY Activator 4 0 2021-10-15 12:01:26.786
+!MESSAGE NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because the return value of "org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel.access$2(org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel)" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because the return value of "org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel.access$2(org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel)" is null
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel$2.bundleChanged(LocalBootDashModel.java:153)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:935)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:228)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:339)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 12:01:27.745
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 12:01:27.746
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 12:01:27.746
+!MESSAGE buffering callback sts4.classpath.bIbSqoju lucky false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 12:01:27.746
+!MESSAGE executing callback sts4.classpath.bIbSqoju 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 12:01:27.751
+!MESSAGE executing callback sts4.classpath.bIbSqoju SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:49:25.162
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:49:25.163
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:49:25.164
+!MESSAGE buffering callback sts4.classpath.bIbSqoju lucky false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:49:25.164
+!MESSAGE executing callback sts4.classpath.bIbSqoju 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:49:25.168
+!MESSAGE executing callback sts4.classpath.bIbSqoju SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:59:11.154
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:59:11.154
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:59:11.155
+!MESSAGE buffering callback sts4.classpath.bIbSqoju lucky false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:59:11.155
+!MESSAGE executing callback sts4.classpath.bIbSqoju 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-15 18:59:11.160
+!MESSAGE executing callback sts4.classpath.bIbSqoju SUCCESS [done]
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.493
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.494
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.498
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.498
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.499
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.499
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.500
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 07:27:39.501
+!MESSAGE リソース '/lucky/src/main/webapp/NewFile.jsp' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.692
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.693
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.697
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.698
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.698
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.698
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.700
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.701
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.775
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-18 08:07:17.776
+!MESSAGE リソース '/lucky/src/main/java/ex/Enployee.java' が存在しません。
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2021-10-18 08:19:57.081
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2224)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeStructuredDocumentRegion(XMLModelParser.java:548)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeData(XMLModelParser.java:238)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.changeRegion(XMLModelParser.java:321)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.regionChanged(DOMModelImpl.java:801)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:544)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1182)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1966)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:106)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1093)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1118)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:627)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:223)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7601)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8501)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2340)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7390)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6226)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6253)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5932)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1559)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:522)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1085)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6329)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:59)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:607)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6161)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2160)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2487)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6281)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5525)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5668)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3880)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

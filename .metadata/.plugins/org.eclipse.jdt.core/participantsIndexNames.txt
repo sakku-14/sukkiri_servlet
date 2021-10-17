@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/Users/sakku14/work/Java/sukkiri_servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2385459877.index
+/lucky/src/main/java

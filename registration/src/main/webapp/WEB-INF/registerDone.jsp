@@ -5,9 +5,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Registration</title>
 </head>
 <body>
 登録完了しました。
+<a href="/registration/RegisterUser">戻る</a>
 </body>
 </html>

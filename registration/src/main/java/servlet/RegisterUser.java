@@ -24,18 +24,20 @@ public class RegisterUser extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String forwardPath = null;
 		String action = request.getParameter("action");
 		
 		if (action == null) {
-			RequestDispatcher d = request.getRequestDispatcher("/WEB-INF/registerForm.jsp");
-			d.forward(request, response);
+			forwardPath = "/WEB-INF/registerForm.jsp";
 		} else if (action.equals("done")) {
 			HttpSession session = request.getSession();
 			User u = (User) session.getAttribute("user");
 			RegisterUserLogic rul = new RegisterUserLogic(u);
 			rul.exec();
+			session.removeAttribute("user");
+			forwardPath = "/WEB-INF/registerDone.jsp";
 		}
-		RequestDispatcher d = request.getRequestDispatcher("/WEB-INF/registerDone.jsp");
+		RequestDispatcher d = request.getRequestDispatcher(forwardPath);
 		d.forward(request, response);
 		
 	}

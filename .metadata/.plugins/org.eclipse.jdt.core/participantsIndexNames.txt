@@ -3,6 +3,8 @@ INDEX VERSION 1.131
 /lucky/src/main/java
 /Users/sakku14/work/Java/sukkiri_servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2385459877.index
 /lucky/src/main/java
+/Users/sakku14/work/Java/sukkiri_servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/954206079.index
+/registration/src/main/java
 /Users/sakku14/work/Java/sukkiri_servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2422444930.index
 /health/src/main/java
 /Users/sakku14/work/Java/sukkiri_servlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1279859980.index

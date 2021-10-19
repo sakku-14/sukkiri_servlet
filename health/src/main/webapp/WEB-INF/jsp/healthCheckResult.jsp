@@ -9,7 +9,7 @@ Health h = (Health) request.getAttribute("health");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Health Check App</title>
 </head>
 <body>
 <h1>スッキリ健康診断の結果</h1>

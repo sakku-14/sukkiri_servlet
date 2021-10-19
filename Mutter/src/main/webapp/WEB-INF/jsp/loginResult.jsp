@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>どこつぶ</title>
 </head>
 <body>
-
+<h1>どこつぶログイン</h1>
+ログインに成功しました<br>
+ようこそ〇〇〇さん
+<a href="">つぶやきの投稿・閲覧へ</a>
 </body>
 </html>

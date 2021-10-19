@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>どこつぶ</title>
 </head>
 <body>
-
+<h1>どこつぶログアウト</h1>
+ログアウトしました<br>
+<a href="">トップへ</a>
 </body>
 </html>

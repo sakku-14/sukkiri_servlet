@@ -2,4 +2,5 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:health" serverId="Tomcat9_Java11"/>
   <module moduleId="org.eclipse.jst.jee.server:lucky" serverId="Tomcat9_Java11"/>
+  <module moduleId="org.eclipse.jst.jee.server:registration" serverId="Tomcat9_Java11"/>
 </modules>

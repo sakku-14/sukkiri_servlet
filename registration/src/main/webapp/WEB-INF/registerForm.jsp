@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Registration</title>
 </head>
 <body>
 <form action="/registration/RegisterUser" method="post">
-ログインID: <input style="text" name="id">
-パスワード: <input style="password" name="pass">
-名前: <input style="text" name="name">
-<input style="submit" value="確認">
+ログインID: <input type="text" name="id"><br>
+パスワード: <input type="password" name="pass"><br>
+名前: <input type="text" name="name"><br>
+<input type="submit" value="確認">
 </form>
 </body>
 </html>

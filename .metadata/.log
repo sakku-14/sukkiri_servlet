@@ -3975,3 +3975,36 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 22:10:36.628
 !MESSAGE executing callback sts4.classpath.OmRcXuQh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 22:56:33.300
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 22:56:33.301
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 22:56:33.301
+!MESSAGE buffering callback sts4.classpath.OmRcXuQh test false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 22:56:33.302
+!MESSAGE executing callback sts4.classpath.OmRcXuQh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 22:56:33.306
+!MESSAGE executing callback sts4.classpath.OmRcXuQh SUCCESS [done]
+
+!ENTRY mergedoc.encoding 2 0 2021-10-19 23:03:59.686
+!MESSAGE リソース '/test/Test.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-10-19 23:03:59.687
+!MESSAGE リソース '/test/Test.java' が存在しません。
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 23:04:17.827
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 23:04:17.828
+!MESSAGE buffering callback sts4.classpath.OmRcXuQh test true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 23:04:17.828
+!MESSAGE executing callback sts4.classpath.OmRcXuQh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-19 23:04:17.831
+!MESSAGE executing callback sts4.classpath.OmRcXuQh SUCCESS [done]

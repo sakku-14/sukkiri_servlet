@@ -15,8 +15,14 @@ public class Mutter implements Serializable {
 	public String getName() {
 		return name;
 	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public String getMurmur() {
 		return murmur;
+	}
+	public void setMurmur(String murmur) {
+		this.murmur = murmur;
 	}
 	
 }

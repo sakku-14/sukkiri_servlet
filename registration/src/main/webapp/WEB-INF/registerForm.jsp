@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<form action="/registration/RegisterUser" method="post">
+ログインID: <input style="text" name="id">
+パスワード: <input style="password" name="pass">
+名前: <input style="text" name="name">
+<input style="submit" value="確認">
+</form>
 </body>
 </html>

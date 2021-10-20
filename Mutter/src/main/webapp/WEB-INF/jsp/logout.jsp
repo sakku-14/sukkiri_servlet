@@ -9,6 +9,6 @@
 <body>
 <h1>どこつぶログアウト</h1>
 ログアウトしました<br>
-<a href="">トップへ</a>
+<a href="/Mutter">トップへ</a>
 </body>
 </html>

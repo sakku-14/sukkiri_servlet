@@ -1,11 +1,21 @@
 package servlet;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import model.Mutter;
+import model.PostMutterLogic;
+import model.User;
 
 /**
  * Servlet implementation class Main
@@ -18,16 +28,45 @@ public class Main extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		ServletContext application = this.getServletContext();
+		List<Mutter> mutterList = (List<Mutter>) application.getAttribute("mutterList");
+		if (mutterList == null) {
+			mutterList = new ArrayList<Mutter>();
+		}
+		HttpSession session = request.getSession();
+		User user = (User) session.getAttribute("user");
+		if (user == null) {
+			response.sendRedirect("/Mutter");
+		} else {
+			application.setAttribute("mutterList", mutterList);
+			session.setAttribute("user", user);
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/main.jsp");
+			dispatcher.forward(request, response);
+		}
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		request.setCharacterEncoding("UTF-8");
+		String murmur = request.getParameter("murmur");
+		
+		if (murmur != null && murmur.length() != 0) {
+			ServletContext application = this.getServletContext();
+			List<Mutter> mutterList = (List<Mutter>) application.getAttribute("mutterList");
+			HttpSession session = request.getSession();
+			User user = (User) session.getAttribute("user");
+			Mutter mutter = new Mutter(user.getName(), murmur);
+			PostMutterLogic pml = new PostMutterLogic();
+			pml.setMutter(mutter, mutterList);
+			application.setAttribute("mutterList", mutterList);
+		} else {
+			String errorMsg = "つぶやきが入力されていません";
+			request.setAttribute("errorMsg", errorMsg);
+		}
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/main.jsp");
+		dispatcher.forward(request, response);
 	}
 
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.jee.server:Mutter" serverId="Tomcat9_Java11"/>
   <module moduleId="org.eclipse.jst.jee.server:Minato" serverId="Tomcat9_Java11"/>
   <module moduleId="org.eclipse.jst.jee.server:health" serverId="Tomcat9_Java11"/>
   <module moduleId="org.eclipse.jst.jee.server:lucky" serverId="Tomcat9_Java11"/>

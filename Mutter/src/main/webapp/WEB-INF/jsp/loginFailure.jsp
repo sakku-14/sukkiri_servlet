@@ -9,6 +9,6 @@
 <body>
 <h1>どこつぶログイン</h1>
 ログインに失敗しました
-<a href="">トップへ</a>
+<a href="/Mutter">トップへ</a>
 </body>
 </html>

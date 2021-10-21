@@ -4838,3 +4838,33 @@ java.lang.StringIndexOutOfBoundsException: begin 0, end 6, length 5
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:54:53.501
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:54:53.504
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:54:53.506
+!MESSAGE buffering callback sts4.classpath.AcaQZDUr Mutter false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:54:53.506
+!MESSAGE executing callback sts4.classpath.AcaQZDUr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:54:53.529
+!MESSAGE executing callback sts4.classpath.AcaQZDUr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:55:01.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:55:01.068
+!MESSAGE classpath=36 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:55:01.069
+!MESSAGE buffering callback sts4.classpath.AcaQZDUr Mutter false 36
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:55:01.069
+!MESSAGE executing callback sts4.classpath.AcaQZDUr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 11:55:01.075
+!MESSAGE executing callback sts4.classpath.AcaQZDUr SUCCESS [done]

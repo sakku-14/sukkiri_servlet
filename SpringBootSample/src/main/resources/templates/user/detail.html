@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>ユーザー詳細</title>
     <link rel="stylesheet" th:href="@{/css/user/list.css}">
+    <script th:src="@{/js/user/detail.js}" defer></script>
 </head>
 <body>
     <div layout:fragment="content">
@@ -42,7 +43,7 @@
                 </tr>
                 <tr>
                     <th>性別</th>
-                    <td th:text="*{gender == 1 ? '男性': '女性'}"></td>
+                    <td th:text="*{gender == 1} ? '男性' : '女性'"></td>
                 </tr>
                 <tr>
                     <th>部署名</th>
@@ -60,6 +61,14 @@
                 </button>
                 <button class="btn btn-primary" type="submit" name="update">
                     更新
+                </button>
+            </div>
+            <div class="text-center mt-2">
+                <button id="btn-delete" class="btn btn-danger" type="button">
+                    削除（REST）
+                </button>
+                <button id="btn-update" class="btn btn-primary" type="button">
+                    更新（REST）
                 </button>
             </div>
             <th:block th:if="*{salaryList != null and salaryList.size() > 0}">

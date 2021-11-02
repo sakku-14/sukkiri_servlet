@@ -3,6 +3,7 @@
 jQuery(function ($){
 
     $('#btn-update').click(function (event) {
+        alert('Button is clicked');
         updateUser();
     });
 
@@ -13,7 +14,7 @@ jQuery(function ($){
 
 function updateUser() {
 
-    var formData = $('#user-detail-form').serializeArray();
+    let formData = $('#user-detail-form').serializeArray();
 
     $.ajax({
         type : "PUT",
@@ -29,13 +30,13 @@ function updateUser() {
 
         alert('ユーザー更新に失敗しました');
     }).always(function () {
-        
+
     });
 }
 
 function deleteUser() {
     
-    var formData = $('#user-detail-form').serializeArray();
+    let formData = $('#user-detail-form').serializeArray();
     
     $.ajax({
         type : "DELETE",

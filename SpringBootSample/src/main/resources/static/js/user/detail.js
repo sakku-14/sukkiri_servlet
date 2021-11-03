@@ -3,7 +3,6 @@
 jQuery(function ($){
 
     $('#btn-update').click(function (event) {
-        alert('Button is clicked');
         updateUser();
     });
 
@@ -35,9 +34,9 @@ function updateUser() {
 }
 
 function deleteUser() {
-    
+
     let formData = $('#user-detail-form').serializeArray();
-    
+
     $.ajax({
         type : "DELETE",
         cache: false,
@@ -45,7 +44,7 @@ function deleteUser() {
         data: formData,
         dataType: 'json',
     }).done(function (data) {
-        
+
         alert('ユーザーを削除しました');
         window.location.href = '/user/list';
     }).fail(function (jqXHR, textStatus, errorThrown) {

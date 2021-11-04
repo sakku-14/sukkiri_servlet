@@ -52,5 +52,5 @@ function deleteUser() {
         alert("ユーザー削除に失敗しました");
     }).always(function () {
 
-    })
+    });
 }
